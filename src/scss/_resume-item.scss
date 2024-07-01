@@ -1,0 +1,121 @@
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  .resume-item {
+    .resume-content {}
+    .resume-date {
+      min-width: none;
+      span {
+        font-size: 1.5em;
+      }
+    }
+     
+  }
+  
+  .description {
+    font-size: 1.3em;
+    color: #C4C5C7;
+  }
+  .surname {
+    color: white;
+  }
+  .intrests {
+    font-size: 1.5em;
+    color: white;
+  }
+  .awards {
+    li {
+      font-size: 15px;
+      margin-bottom: 5px;
+      color: white;
+    }
+  }
+}
+.user-name {
+  margin-left: 5px;
+}
+.nav-bar-brand {
+  padding-top: 0.6em;
+}
+.nav-bar-name {
+  font-size: 2em;
+}
+.nav-bar-toggle-button {
+  padding: .75rem 1.75rem;
+  font-size: 2.15em;
+  float: right;
+}
+.smoothscroll {
+  cursor: pointer;
+}
+.skill-label {
+  font-size: 2em;
+}
+.workflow-content {
+  font-size: 1.4em;
+}
+.skills-details-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: inherit;
+  .skill-detail {
+      display: flex;
+      margin-right: 6em;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 7px;
+      .skill {
+        margin-right: 2em;
+        font-size: 1.2em;
+        font-weight: 800;
+        color: white;
+      }
+      .progress-bar-container {
+          width: 50%;
+          background: white;
+          height: 12px;
+          .filled-value {
+              background: #BD5D38;
+              height: 12px;
+          }
+      }
+  }
+  
+}
+.role-label {
+  font-size: 14px;
+  font-weight: 800;
+  color: white; 
+}
+.role-skill {
+  color: #BD5D38;
+  font-weight: 800;
+}
+.year {
+  font-weight: 800;
+}
+.active {
+  color: white
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-date {
+        min-width: 18rem;
+      }
+    }
+    
+  }
+  .navbar-nav li {
+    float: none;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}

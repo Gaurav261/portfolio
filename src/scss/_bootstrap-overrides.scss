@@ -1,0 +1,21 @@
+.bg-primary {
+  background: #1F2833 !important;
+}
+
+.text-primary {
+  color: $pri !important;
+}
+
+a {
+  color: $pri;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($pri, 15%);
+  }
+}
+.rounded-circle {
+  border-radius: 50%!important;
+    width: 12em;
+    height: 12em;
+} 

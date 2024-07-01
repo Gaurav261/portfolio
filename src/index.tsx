@@ -3,13 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { NavBar } from './components/NavBar/NavBar';
+import {Experience} from './components/Experience';
+import { Education } from './components/Education';
+import { Skills } from './components/Skills';
+import { Interests } from './components/Interests';
+import { Awards } from './components/Awards';
+import { Projects } from './components/Projects';
+import './scss/resume.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <React.Fragment>
+        <NavBar/>
+        <Experience/>
+        <Projects />
+        <Education />
+        <Skills />
+        <Interests />
+        <Awards />
+        </React.Fragment>
   </React.StrictMode>
 );
 
