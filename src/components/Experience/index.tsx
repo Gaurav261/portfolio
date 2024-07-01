@@ -18,7 +18,7 @@ export class Experience extends React.PureComponent {
                   <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
                       <h3 className="mb-0">Full Stack Developer</h3>
-                      <div className="subheading mb-3">Coditas Technologies PVT LTD</div>
+                      <div className="subheading mb-3"></div>
                       <p className="description">
                       Working as a Full Stack developer for 
                       developing web apps with JavaScript frameworks such as 
