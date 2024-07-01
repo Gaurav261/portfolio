@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link, Element } from 'react-scroll'
 
-const developerPhoto = require('../../assets/gaurav.jpg');
+const developerPhoto = require('../../assets/gaurav.jpeg');
 
 export interface INavBarProps{
 
